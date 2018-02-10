@@ -51,7 +51,7 @@
                                         </state>
                                         <connections>
                                             <action selector="loginYay:" destination="s9n-Fu-b56" eventType="touchUpInside" id="ZKS-4O-Yag"/>
-                                            <segue destination="S4R-Ja-viH" kind="push" identifier="Login" id="KSi-A1-wcV"/>
+                                            <segue destination="S4R-Ja-viH" kind="show" id="iD9-l8-Aia"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AUNTflow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBP-Tf-rMm">
