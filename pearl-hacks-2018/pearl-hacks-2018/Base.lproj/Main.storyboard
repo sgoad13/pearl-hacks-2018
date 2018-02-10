@@ -19,6 +19,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VyM-Ur-nXS">
+                                <rect key="frame" x="50" y="106" width="282" height="258"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95470994710922241" green="0.80407115231168302" blue="0.80298539419324022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" placeholder="\" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ucp-0P-Tms">
                                 <rect key="frame" x="81" y="141" width="222" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -65,11 +70,6 @@
                                     <segue destination="S4R-Ja-viH" kind="push" identifier="Login" id="KSi-A1-wcV"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VyM-Ur-nXS">
-                                <rect key="frame" x="50" y="106" width="282" height="258"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95470994710922241" green="0.80407115231168302" blue="0.80298539419324022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.5708845853805542" green="0.29968407606513298" blue="0.2370587779306971" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="iAZ-4m-2z3"/>
