@@ -67,7 +67,7 @@
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cA-Kt-23S">
                                 <rect key="frame" x="151" y="484" width="73" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95417746113989643" green="0.33598328878827421" blue="0.3329448768282719" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.95545297861099243" green="0.55706818244931522" blue="0.58675608507271193" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <gestureRecognizers/>
                                 <state key="normal" title="SIGN UP">
                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -78,16 +78,12 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.5708845853805542" green="0.29968407606513298" blue="0.2370587779306971" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="iAZ-4m-2z3"/>
                     </view>
                     <connections>
-                        <outlet property="NameField" destination="Ucp-0P-Tms" id="bCq-Hp-0Xd"/>
-                        <outlet property="loginButton" destination="Z8E-d3-o6I" id="50B-Kq-nKZ"/>
                         <outlet property="nameField" destination="Ucp-0P-Tms" id="UAv-Mj-JpG"/>
                         <outlet property="passwordField" destination="ExE-zH-joA" id="6ED-TQ-5Xv"/>
-                        <outlet property="signupButton" destination="2cA-Kt-23S" id="30T-A3-sCs"/>
-                        <outlet property="titleField" destination="MBP-Tf-rMm" id="lFZ-F4-MLo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3h-pU-vEd" sceneMemberID="firstResponder"/>
