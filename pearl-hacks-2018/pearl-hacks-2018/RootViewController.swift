@@ -9,7 +9,16 @@
 import UIKit
 
 class RootViewController: UIViewController, UIPageViewControllerDelegate {
-
+    
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBAction func loginYay(_ sender: Any) {
+    }
+    
+    @IBAction func signupYay(_ sender: Any) {
+    }
+    
     var pageViewController: UIPageViewController?
 
     override func viewDidLoad() {

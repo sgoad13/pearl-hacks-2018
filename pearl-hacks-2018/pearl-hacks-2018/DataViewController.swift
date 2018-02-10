@@ -10,16 +10,6 @@ import UIKit
 
 class DataViewController: UIViewController {
 
-    //MARK: properties
-    @IBOutlet weak var nameField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
-    
-    
-    @IBOutlet weak var titleLabel: UILabel!
-    
-    
-    
-    
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
 
@@ -27,6 +17,7 @@ class DataViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
     //MARK: actions
@@ -40,15 +31,7 @@ class DataViewController: UIViewController {
         super.viewWillAppear(animated)
         self.dataLabel!.text = dataObject
     }
-    @IBAction func welcome(_ sender: Any) {
-    }
-    
-    @IBAction func loginYay(_ sender: Any) {
-        titleLabel.text = "did this work";
-    }
-    
-    @IBAction func signupYay(_ sender: Any) {
-    }
+
     
 
 }
