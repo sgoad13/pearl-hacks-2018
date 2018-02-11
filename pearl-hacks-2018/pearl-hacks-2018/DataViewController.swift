@@ -10,7 +10,7 @@ import UIKit
 import GoogleMaps
 
 class DataViewController: UIViewController {
-
+   
     
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""

@@ -145,6 +145,14 @@
             </objects>
             <point key="canvasLocation" x="935.20000000000005" y="-243.32833583208398"/>
         </scene>
+        <!--Page View Controller-->
+        <scene sceneID="q0Z-Qr-ALa">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="u9N-HT-RsM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I1h-qT-9rM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1614" y="-159"/>
+        </scene>
     </scenes>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
