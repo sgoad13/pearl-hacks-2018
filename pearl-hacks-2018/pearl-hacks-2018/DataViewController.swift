@@ -26,12 +26,12 @@ class DataViewController: UIViewController {
         view = mapView
         
         // Creates a marker in the center of the map.
-        let marker = GMSMarker()
+       /* let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: 35.904956, longitude: -79.046967)
         marker.title = "Chapel Hill"
         marker.snippet = "North Carolina, United States"
         marker.map = mapView
-        
+        */
     }
     
     //MARK: actions
