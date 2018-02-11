@@ -58,7 +58,6 @@
 		FB3055EC202F6BCE0074C7E3 /* pearl-hacks-2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pearl-hacks-2018UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3055F0202F6BCE0074C7E3 /* pearl_hacks_2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pearl_hacks_2018UITests.swift; sourceTree = "<group>"; };
 		FB3055F2202F6BCE0074C7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB305602202F91140074C7E3 /* FunctionalityHopefully.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalityHopefully.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +131,6 @@
 			children = (
 				FB3055CC202F6BCE0074C7E3 /* AppDelegate.swift */,
 				FB3055CE202F6BCE0074C7E3 /* RootViewController.swift */,
-				FB305602202F91140074C7E3 /* FunctionalityHopefully.swift */,
 				FB3055D0202F6BCE0074C7E3 /* DataViewController.swift */,
 				FB3055D2202F6BCE0074C7E3 /* ModelController.swift */,
 				FB3055D4202F6BCE0074C7E3 /* Main.storyboard */,
@@ -356,7 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB3055CF202F6BCE0074C7E3 /* RootViewController.swift in Sources */,
-				FB305603202F91140074C7E3 /* FunctionalityHopefully.swift in Sources */,
 				FB3055D3202F6BCE0074C7E3 /* ModelController.swift in Sources */,
 				FB3055D1202F6BCE0074C7E3 /* DataViewController.swift in Sources */,
 				FB3055CD202F6BCE0074C7E3 /* AppDelegate.swift in Sources */,
