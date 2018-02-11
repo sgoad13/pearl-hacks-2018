@@ -19,6 +19,7 @@ class RootViewController: UIViewController {
     }
     
     @IBAction func signupYay(_ sender: Any) {
+        performSegue(withIdentifier: "LoginToCreateAcct", sender: self)
     }
     @IBAction func welcomeToHowTo(_ sender: Any) {
         performSegue(withIdentifier: "FromWelcomeToHowTo", sender: self)
