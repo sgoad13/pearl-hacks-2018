@@ -78,7 +78,7 @@
                                 <color key="backgroundColor" red="0.95470994710922241" green="0.80407115231168302" blue="0.80298539419324022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cA-Kt-23S">
-                                <rect key="frame" x="151" y="484" width="73" height="46"/>
+                                <rect key="frame" x="155" y="482" width="73" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95545297861099243" green="0.55706818244931522" blue="0.58675608507271193" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <gestureRecognizers/>
