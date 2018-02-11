@@ -21,9 +21,11 @@ class DataViewController: UIViewController {
        
         GMSServices.provideAPIKey("AIzaSyD1_YUcyCrIuenuvX6J2oLZOEiMmp_w21c");
         // Do any additional setup after loading the view, typically from a nib.
-        let camera = GMSCameraPosition.camera(withLatitude: 35.904956, longitude: -79.046967, zoom: 6.0)
+        let camera = GMSCameraPosition.camera(withLatitude: 35.904956, longitude: -79.046967, zoom: 11.0)
         let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
         view = mapView
+        
+       
         
         // Creates a marker in the center of the map.
         let marker = GMSMarker()
@@ -31,6 +33,8 @@ class DataViewController: UIViewController {
         marker.title = "Chapel Hill"
         marker.snippet = "North Carolina, United States"
         marker.map = mapView
+        
+        
         
     }
     

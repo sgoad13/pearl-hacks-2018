@@ -88,7 +88,6 @@
                                 <connections>
                                     <action selector="signupYay:" destination="s9n-Fu-b56" eventType="touchUpInside" id="uKo-hE-C60"/>
                                     <outletCollection property="gestureRecognizers" destination="TbC-au-Igs" appends="YES" id="7If-AL-pEZ"/>
-                                    <segue destination="fpL-5N-8Is" kind="show" identifier="LoginToCreateAcct" id="qsI-1j-vWy"/>
                                 </connections>
                             </button>
                         </subviews>
