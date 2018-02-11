@@ -14,7 +14,7 @@ class RootViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
     
     @IBAction func loginYay(_ sender: Any) {
-        let segue = UIStoryboardSegue(identifier: "Login", source: UIViewController, destination: DataViewController);
+        performSegue(withIdentifier: "FromLoginToMap", sender: self)
     }
     
     @IBAction func signupYay(_ sender: Any) {
