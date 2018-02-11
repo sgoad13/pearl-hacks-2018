@@ -15,12 +15,19 @@ class RootViewController: UIViewController {
     @IBOutlet weak var passwordField: UITextField!
 
     @IBAction func loginYay(_ sender: Any) {
-        performSegue(withIdentifier: "FromLoginToMap", sender: self)
+        performSegue(withIdentifier: "FromLoginToInstructions", sender: self)
     }
     
     @IBAction func signupYay(_ sender: Any) {
+        performSegue(withIdentifier: "LoginToCreateAcct", sender: self)
     }
-
+    @IBAction func welcomeToHowTo(_ sender: Any) {
+        performSegue(withIdentifier: "FromWelcomeToHowTo", sender: self)
+    }
+    @IBAction func howToToMap(_ sender: Any) {
+        performSegue(withIdentifier: "FromHowToToMap", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
