@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class DataViewController: UIViewController {
 
+    
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
 
@@ -17,6 +19,18 @@ class DataViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        GMSServices.provideAPIKey("AIzaSyD1_YUcyCrIuenuvX6J2oLZOEiMmp_w21c");
+        
+        let camera = GMSCameraPosition.camera(withLatitude: 35.9132, longitude: 79.0558, zoom: 6.0)
+        let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
+        view = mapView
+        
+        // Creates a marker in the center of the map.
+        let marker = GMSMarker()
+        marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
+        marker.title = "Chapel Hill"
+        marker.snippet = "North Carolina, United States"
+        marker.map = mapView
         
     }
     

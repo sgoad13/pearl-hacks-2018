@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764C54F2202FB7E400B54CBD /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 764C54F1202FB7E400B54CBD /* PodFile */; };
 		FB3055CD202F6BCE0074C7E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3055CC202F6BCE0074C7E3 /* AppDelegate.swift */; };
 		FB3055CF202F6BCE0074C7E3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3055CE202F6BCE0074C7E3 /* RootViewController.swift */; };
 		FB3055D1202F6BCE0074C7E3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3055D0202F6BCE0074C7E3 /* DataViewController.swift */; };
@@ -17,6 +18,7 @@
 		FB3055E6202F6BCE0074C7E3 /* pearl_hacks_2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3055E5202F6BCE0074C7E3 /* pearl_hacks_2018Tests.swift */; };
 		FB3055F1202F6BCE0074C7E3 /* pearl_hacks_2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3055F0202F6BCE0074C7E3 /* pearl_hacks_2018UITests.swift */; };
 		FB305603202F91140074C7E3 /* FunctionalityHopefully.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB305602202F91140074C7E3 /* FunctionalityHopefully.swift */; };
+		FDB8894C2C9C62057B32E15D /* libPods-pearl-hacks-2018.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFB33EB0C5F6CAE0585B09C /* libPods-pearl-hacks-2018.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2279E1F0B14E6B8EB6A94E54 /* Pods-pearl-hacks-2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pearl-hacks-2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pearl-hacks-2018/Pods-pearl-hacks-2018.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3E74AED2EA12BBD63FEFB0 /* Pods-pearl-hacks-2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pearl-hacks-2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-pearl-hacks-2018/Pods-pearl-hacks-2018.release.xcconfig"; sourceTree = "<group>"; };
+		764C54F1202FB7E400B54CBD /* PodFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		AFFB33EB0C5F6CAE0585B09C /* libPods-pearl-hacks-2018.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pearl-hacks-2018.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3055C9202F6BCE0074C7E3 /* pearl-hacks-2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pearl-hacks-2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3055CC202F6BCE0074C7E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB3055CE202F6BCE0074C7E3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDB8894C2C9C62057B32E15D /* libPods-pearl-hacks-2018.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +87,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		568DAA7B7A8D125FBE1C8DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFFB33EB0C5F6CAE0585B09C /* libPods-pearl-hacks-2018.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8788AA654FFD0CD829A265C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2279E1F0B14E6B8EB6A94E54 /* Pods-pearl-hacks-2018.debug.xcconfig */,
+				2F3E74AED2EA12BBD63FEFB0 /* Pods-pearl-hacks-2018.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB3055C0202F6BCE0074C7E3 = {
 			isa = PBXGroup;
 			children = (
+				764C54F1202FB7E400B54CBD /* PodFile */,
 				FB3055CB202F6BCE0074C7E3 /* pearl-hacks-2018 */,
 				FB3055E4202F6BCE0074C7E3 /* pearl-hacks-2018Tests */,
 				FB3055EF202F6BCE0074C7E3 /* pearl-hacks-2018UITests */,
 				FB3055CA202F6BCE0074C7E3 /* Products */,
+				8788AA654FFD0CD829A265C7 /* Pods */,
+				568DAA7B7A8D125FBE1C8DBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB3055F5202F6BCE0074C7E3 /* Build configuration list for PBXNativeTarget "pearl-hacks-2018" */;
 			buildPhases = (
+				B3FEAAF40CAD563E23C967CC /* [CP] Check Pods Manifest.lock */,
 				FB3055C5202F6BCE0074C7E3 /* Sources */,
 				FB3055C6202F6BCE0074C7E3 /* Frameworks */,
 				FB3055C7202F6BCE0074C7E3 /* Resources */,
+				1C478F528619058E1FE4B354 /* [CP] Embed Pods Frameworks */,
+				A14DA04AFF4D776FA9739456 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +273,7 @@
 			files = (
 				FB3055DB202F6BCE0074C7E3 /* LaunchScreen.storyboard in Resources */,
 				FB3055D8202F6BCE0074C7E3 /* Assets.xcassets in Resources */,
+				764C54F2202FB7E400B54CBD /* PodFile in Resources */,
 				FB3055D6202F6BCE0074C7E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +293,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C478F528619058E1FE4B354 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pearl-hacks-2018/Pods-pearl-hacks-2018-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A14DA04AFF4D776FA9739456 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pearl-hacks-2018/Pods-pearl-hacks-2018-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pearl-hacks-2018/Pods-pearl-hacks-2018-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3FEAAF40CAD563E23C967CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pearl-hacks-2018-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB3055C5202F6BCE0074C7E3 /* Sources */ = {
@@ -436,6 +523,7 @@
 		};
 		FB3055F6202F6BCE0074C7E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2279E1F0B14E6B8EB6A94E54 /* Pods-pearl-hacks-2018.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +538,7 @@
 		};
 		FB3055F7202F6BCE0074C7E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3E74AED2EA12BBD63FEFB0 /* Pods-pearl-hacks-2018.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
