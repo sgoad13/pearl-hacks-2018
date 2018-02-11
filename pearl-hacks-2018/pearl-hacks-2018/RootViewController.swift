@@ -18,14 +18,21 @@ class RootViewController: UIViewController {
         performSegue(withIdentifier: "FromLoginToInstructions", sender: self)
     }
     
-    @IBAction func signupYay(_ sender: Any) {
-        performSegue(withIdentifier: "LoginToCreateAcct", sender: self)
-    }
+//    @IBAction func signupYay(_ sender: Any) {
+//        performSegue(withIdentifier: "LoginToCreateAcct", sender: self)
+//    }
     @IBAction func welcomeToHowTo(_ sender: Any) {
         performSegue(withIdentifier: "FromWelcomeToHowTo", sender: self)
     }
     @IBAction func howToToMap(_ sender: Any) {
         performSegue(withIdentifier: "FromHowToToMap", sender: self)
+    }
+
+    @IBAction func fromLoginToCreate(_ sender: Any) {
+               performSegue(withIdentifier: "FromLoginToCreateAcct", sender: self)
+    }
+    @IBAction func createtoWelcome(_ sender: Any) {
+             performSegue(withIdentifier: "FromCreateToWelcome", sender: self)
     }
     
     override func viewDidLoad() {
