@@ -11,8 +11,9 @@ import UIKit
 class RootViewController: UIViewController {
     
     @IBOutlet weak var nameField: UITextField!
+
     @IBOutlet weak var passwordField: UITextField!
-    
+
     @IBAction func loginYay(_ sender: Any) {
         performSegue(withIdentifier: "FromLoginToMap", sender: self)
     }
